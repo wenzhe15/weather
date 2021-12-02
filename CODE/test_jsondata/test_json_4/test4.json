@@ -1,0 +1,12 @@
+{
+    "type":"FeatureCollection",
+    "features":[{"type":"Feature",
+                "geometry":{"type":"LineString",
+                            "coordinates":[[127.61032104492188,36.854351087686865],[127.72567749023436,36.78179217131927]]},
+                "properties":{"name":"R_START"}},
+                {"type":"Feature",
+                "geometry":{"type":"Polygon",
+                            "coordinates":[[[127.61581420898438,37.23798199321938],[127.71743774414061,37.181108087915064]]]},
+                "properties":{"name":"R_START",
+                            "overlay":"aaa"}}]
+}

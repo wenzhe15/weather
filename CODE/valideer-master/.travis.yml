@@ -1,0 +1,12 @@
+# Config file for automatic testing at travis-ci.org
+
+language: python
+python:
+  - "3.4"
+  - "3.3"
+  - "2.7"
+  - "pypy"
+install: pip install coveralls
+script: coverage run --source=valideer setup.py test
+after_success: coveralls
+
